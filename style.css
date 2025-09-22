@@ -566,7 +566,7 @@ footer .copyright{
 }
 
 
-@media (max-width:1999px) {
+@media (max-width:799px) {
     
     .section-p1{
         padding:40px 40px;
@@ -747,7 +747,7 @@ footer .copyright{
 
     #newsletter .form {
        
-        width: 10s0%;
+        width: 100%;
     }
 
     #footer .copyright{
@@ -756,4 +756,21 @@ footer .copyright{
     }
 
     
+}
+
+#page-header{
+    background-image: url("./img/banner/b1.jpg");
+    width:100%;
+    height:40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding:14px;
+}
+
+#page-header h2,
+#page-header p{
+    color: #fff;
 }
